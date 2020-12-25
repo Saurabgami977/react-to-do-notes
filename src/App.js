@@ -45,6 +45,7 @@ export default function App() {
   };
 
   const handleDelete = (i) => {
+    //prevState ???
     setToDoList((prevState) => prevState.filter((a, index) => index !== i));
   };
 
